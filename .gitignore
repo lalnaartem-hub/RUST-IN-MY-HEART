@@ -1,24 +1,20 @@
 ```
 # Build artifacts
+*.obj
 *.exe
 *.dll
 *.pdb
-*.exe.config
-AdvancedRAT/bin/
-AdvancedRAT/obj/
+*.userprefs
+*.cache
+*.tmp
 
 # Dependencies
 packages/
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
+bin/
+obj/
 
-# Logs and temp files
+# Logs
 *.log
-*.tmp
-*.temp
 
 # Environment
 .env
@@ -26,28 +22,7 @@ __pycache__/
 *.env.*
 
 # Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS specific
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
+.vs/
+*.user
+*.suo
 ```
