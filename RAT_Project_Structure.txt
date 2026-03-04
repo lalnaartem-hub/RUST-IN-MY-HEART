@@ -1,0 +1,58 @@
+RAT Project Structure Overview:
+├── AdvancedRAT/
+│   ├── Core/
+│   │   ├── Communication/
+│   │   │   ├── EncryptedChannel.cs
+│   │   │   ├── Compression.cs
+│   │   │   └── Protocol.cs
+│   │   ├── Security/
+│   │   │   ├── AMSEPatch.cs
+│   │   │   ├── UACBypass.cs
+│   │   │   ├── DefenderSuspender.cs
+│   │   │   ├── AntiVM.cs
+│   │   │   └── Obfuscation.cs
+│   │   ├── Persistence/
+│   │   │   ├── StartupManager.cs
+│   │   │   └── RegistryPersistence.cs
+│   │   └── Modules/
+│   │       ├── Keylogger.cs
+│   │       ├── ScreenCapture.cs
+│   │       ├── WebcamController.cs
+│   │       ├── MicrophoneRecorder.cs
+│   │       ├── FileOperations.cs
+│   │       ├── ProcessManager.cs
+│   │       └── DataExfiltration.cs
+│   ├── Stealers/
+│   │   ├── BrowserStealer/
+│   │   │   ├── ChromeStealer.cs
+│   │   │   ├── FirefoxStealer.cs
+│   │   │   └── EdgeStealer.cs
+│   │   ├── GameClientStealer/
+│   │   │   ├── SteamStealer.cs
+│   │   │   └── EpicGamesStealer.cs
+│   │   └── MessengerStealer/
+│   │       ├── TelegramStealer.cs
+│   │       └── DiscordStealer.cs
+│   ├── UI/
+│   │   ├── Builder/
+│   │   │   ├── FormBuilder.cs
+│   │   │   └── PayloadCompiler.cs
+│   │   └── ClientConsole/
+│   │       ├── Dashboard.xaml
+│   │       ├── GlobeVisualization.xaml
+│   │       └── ControlPanel.xaml
+│   ├── Testing/
+│   │   ├── UnitTests.cs
+│   │   └── IntegrationTests.cs
+│   ├── Utils/
+│   │   ├── CryptoHelper.cs
+│   │   ├── NetworkHelper.cs
+│   │   ├── FileSystemHelper.cs
+│   │   └── ProcessHelper.cs
+│   ├── Resources/
+│   │   ├── Icons/
+│   │   ├── Strings/
+│   │   └── Configuration/
+│   ├── AdvancedRAT.csproj
+│   └── Program.cs
+└── README.md
